@@ -1,0 +1,88 @@
+* {
+  direction: rtl;
+  font-family: "B Nazanin";
+}
+
+html, body {
+  margin: 0px;
+}
+
+#about {
+  background-color: #c41d2b;
+  border-bottom-style: none;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 10%;
+}
+
+#main_text {
+  background-color: #0d2245;
+  padding: 10px;
+}
+
+*#main_list {
+  /*padding: 20px;*/
+  /*margin: 20px;*/
+  /*  background-color: #c41d2b;*/
+}
+
+.main_text {
+  border-style: none;
+  border-width: 3px;
+  border-bottom-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 30px 10px 30px;
+}
+
+.main_text:hover {
+  background-color: aquamarine;
+
+}
+
+.main_text:nth-child(2n) {
+  background-color: #799bd1;
+}
+
+.main_text:nth-child(2n+1) {
+  background-color: #377ded;
+
+}
+
+.list {
+  padding: 0px 20px 0px 0px;
+  list-style-type: none;
+  border-style: none;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: black;
+  background-color: #c41d2b;
+  width: 10%;
+
+}
+
+/*unvisited link*/
+a:link {
+  color: black;
+}
+
+/*visited link*/
+a:visited {
+  color: brown;
+}
+
+/*mouse over link*/
+a:hover {
+  color: darkred;
+}
+
+a:active {
+  color: oldlace;
+}
+
+a {
+  text-decoration-skip-ink: none;
+}
