@@ -1,15 +1,32 @@
 <!--<!DOCTYPE html>-->
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>my first web</title>
   <link href="webpage1.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<img src="coding-job.png" style="height: auto;width: 100%" id="image">
+<div id="page_top"></div>
+<div id="navbar">
+  <span><a href="#modal_contact"> ارتباط با من</a></span>
+  <span>درباره من</span>
+</div>
 
-<div id="main_text">
-  <div id="about">
+<a id="jump_top" href="#page_top"></a>
+<img src="coding-job.png" id="banner">
+
+<div class="modal_wrapper" id="modal_contact">
+  <div class="modal" >
+    <span class="close_modal"><a href="#close_modal">X</a> </span>
+    this is my contact div<br>
+    this is my contact div<br>
+    this is my contact div
+  </div>
+</div>
+
+<a id="jump_down" href="#wrapper" ></a>
+
+<div id="wrapper">
+  <div id="about" class="about">
     <h1>درباره</h1>
     درباره من<br>
     درباره من<br>
@@ -17,50 +34,53 @@
     درباره من<br>
     درباره من<br>
     درباره من<br>
-  </div>
-  
-  <div id="experience" class="main_text">
-    تجربه های من<br>
-    تجربه های من<br>
-    تجربه های من<br>
-    تجربه های من<br>
+
   </div>
 
-  <div id="education" class="main_text">
-    تحصیلات من<br>
-    تحصیلات من<br>
-    تحصیلات من<br>
-    تحصیلات من<br>
+  <div id="maintextwrapper">
+    <div id="experience" class="maintext">
+      تجربه های من<br>
+      تجربه های من<br>
+      تجربه های من<br>
+      تجربه های من<br>
+    </div>
+
+    <div id="education" class="maintext">
+      تحصیلات من<br>
+      تحصیلات من<br>
+      تحصیلات من<br>
+      تحصیلات من<br>
+    </div>
+
+    <div id="cv" class="maintext">
+      رزومه من<br>
+      رزومه من<br>
+      رزومه من<br>
+      رزومه من<br>
+    </div>
+
+    <div id="contact" class="maintext">
+      ارتباط با من<br>
+      ارتباط با من<br>
+      ارتباط با من<br>
+      ارتباط با من<br>
+    </div>
   </div>
 
-  <div id="cv" class="main_text">
-    رزومه من<br>
-    رزومه من<br>
-    رزومه من<br>
-    رزومه من<br>
+  <div id="menu">
+    <ul style="list-style-type: none">
+      <li><a href="#experience">تجربه ها</a></li>
+      <li><a href="#education">تحصیلات</a></li>
+      <li><a href="#cv">رزومه</a></li>
+      <li><a href="#contact">ارتباط با من</a></li>
+    </ul>
   </div>
-
-  <div id="contact" class="main_text">
-    ارتباط با من<br>
-    ارتباط با من<br>
-    ارتباط با من<br>
-    ارتباط با من<br>
-  </div>
-</div>
-
-<div id="main_list">
-  <ul id="list">
-    <li class="list"><a href="#experience">تجربه ها</a></li>
-    <li class="list"><a href="#education">تحصیلات</a></li>
-    <li class="list"><a href="#cv">رزومه</a></li>
-    <li class="list"><a href="#contact">ارتباط با من</a></li>
-  </ul>
 </div>
 
 <div id="footer">
-  footer
-</div>
+  copyright 2016 &copy;<a href="www.maktabkhooneh.org" target="_blank">maktabkhooneh</a>
 
+</div>
 </body>
 </html>
 
