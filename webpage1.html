@@ -77,10 +77,15 @@
   </div>
 </div>
 
-<div id="footer">
+<div id="footer" onclick="change_text()">
   copyright 2016 &copy;<a href="www.maktabkhooneh.org" target="_blank">maktabkhooneh</a>
-
 </div>
+
+<script type="text/javascript" src="my_js.js">
+  function change_text(){
+    document.getElementById("footer").innerHTML = "footer from javascript"
+  }
+</script>
 </body>
 </html>
 
