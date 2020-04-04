@@ -319,7 +319,7 @@ a {
   font-size: x-large;
 }
 
-.maintext::after {
-  content: "test text \a \a";
-  white-space: pre;
-}
+/*.maintext::after {*/
+/*  content: "test text \a \a";*/
+/*  white-space: pre;*/
+/*}*/
