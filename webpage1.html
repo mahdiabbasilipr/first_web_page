@@ -3,8 +3,13 @@
   <meta charset="UTF-8">
   <title>my first web</title>
   <link href="webpage1.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
+
+<div id="loading_page">
+  <img src="load_page.gif">
+</div>
 <div id="page_top"></div>
 <div id="navbar">
   <span><a href="#modal_contact"> ارتباط با من</a></span>
@@ -38,7 +43,7 @@
   </div>
 
   <div id="maintextwrapper">
-    <div id="experience" class="maintext">
+    <div id="experience" class="maintext" onclick="hide_about()">
       تجربه های من<br>
       تجربه های من<br>
       تجربه های من<br>
@@ -82,9 +87,7 @@
 </div>
 
 <script type="text/javascript" src="my_js.js">
-  function change_text(){
-    document.getElementById("footer").innerHTML = "footer from javascript"
-  }
+
 </script>
 </body>
 </html>
