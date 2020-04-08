@@ -12,19 +12,40 @@
 </div>
 <div id="page_top"></div>
 <div id="navbar">
-  <span><a href="#modal_contact"> ارتباط با من</a></span>
+  <span id="navbar_list">فهرست</span>
+  <span id="navbar_contact"> ارتباط با من</span>
   <span id="navbar_about">درباره من</span>
 </div>
 
 <a id="jump_top" href="#page_top"></a>
 <img src="coding-job.png" id="banner">
 
+<div id="list_page">
+  <div id="modal_list">
+    <ul style="list-style-type: none">
+      <li><a href="#experience">تجربه ها</a></li>
+      <li><a href="#education">تحصیلات</a></li>
+      <li><a href="#cv">رزومه</a></li>
+      <li><a href="#contact">ارتباط با من</a></li>
+    </ul>
+  </div>
+</div>
+
 <div class="modal_wrapper" id="modal_contact">
   <div class="modal" >
-    <span class="close_modal"><a href="#close_modal">X</a> </span>
+    <span class="close_modal">X </span><br><br>
     this is my contact div<br>
     this is my contact div<br>
     this is my contact div
+  </div>
+</div>
+
+<div class="modal_wrapper" id="modal_about">
+  <div class="modal" >
+    <span class="close_modal" id="close_about">X </span><br><br>
+    this is my about div<br>
+    this is my about div<br>
+    this is my about div
   </div>
 </div>
 
@@ -83,7 +104,7 @@
 </div>
 
 <div id="footer" onclick="change_text()">
-  copyright 2016 &copy;<a href="www.maktabkhooneh.org" target="_blank">maktabkhooneh</a>
+  copyright 2016 &copy;<a href="https://maktabkhooneh.org/" target="_blank">maktabkhooneh</a>
 </div>
 
 <script type="text/javascript" src="my_js.js">

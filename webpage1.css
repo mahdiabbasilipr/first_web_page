@@ -126,7 +126,32 @@ div {
   padding: 30px;
   border: black solid 3px;
   z-index: 100;
-  transition: all 0.5s;
+  /*transition: all 0.5s;*/
+  opacity: 1;
+}
+
+
+#modal_about > div {
+
+  background-color: white;
+  padding: 30px;
+  border: black solid 3px;
+  z-index: 100;
+  /*transition: all 0.5s;*/
+  opacity: 1;
+}
+
+#list_page {
+
+}
+#modal_list{
+  float: right;
+  margin: 45px 30px;
+  background-color: #88aaff;
+  width: 100px;
+  height: auto;
+  position: fixed;
+  padding: 2px;
 }
 
 .modal {
@@ -138,39 +163,38 @@ div {
   text-align: center;
   margin-right: 25%;
   /*z-index: -2;*/
+  border-radius: 10px;
 
 }
 
-#modal_contact > div :target {
-  opacity: 1;
-  z-index: 100;
+/*#modal_contact > div :target {*/
 
 
-}
+/*}*/
 
 .modal_wrapper {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   height: 200%;
-  z-index: -10;
+  z-index: 9999999;
   position: fixed;
   top: 0;
-  transition: all 1s;
-  opacity: 0;
-}
-
-.modal_wrapper:target {
+  /*transition: all 1s;*/
   opacity: 1;
   transform: translateY(-50px);
-  z-index: 9999999;
+
 }
 
-.close_modal a :hover {
+/*.modal_wrapper:target {*/
+/*  */
+/*}*/
+
+.close_modal:hover {
   background-color: gray;
-  color: white;
+  color: red;
 }
 
-.close_modal a {
+.close_modal {
   color: black;
   background-color: white;
   display: inline-block;
@@ -182,6 +206,7 @@ div {
   z-index: 99999;
   top: -10px;
   right: -10px;
+  float: right;
 }
 
 #jump_top {
@@ -198,6 +223,7 @@ div {
   position: fixed;
   bottom: 50px;
   right: 50px;
+  /*margin-top: 70000000px;*/
 }
 
 #page_top {
@@ -240,7 +266,7 @@ div {
 
 #navbar {
 
-  background-color: rgba(20, 30, 250, 0.5);
+  background-color: rgba(20, 30, 250, 1);
   width: 100%;
   padding: 1% 0;
   margin: 0;
@@ -252,7 +278,7 @@ div {
 
 #navbar :hover {
 
-  background-color: rgba(20, 30, 250, 1);
+  background-color: rgba(20, 30, 250,0.2);
 
 }
 
@@ -285,6 +311,7 @@ div {
 #menu:hover {
   transform: scale(1.5, 1.5);
   box-shadow: #555 5px 5px 20px, #555 -5px -5px 20px;
+  background-color: rgba(196, 29, 43,0.8);
 }
 
 /*unvisited link*/
